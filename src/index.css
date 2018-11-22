@@ -176,6 +176,10 @@ header p {
   line-height: 4.5rem;
 }
 
+.link-project {
+  text-decoration: none;
+}
+
 /* RWD */
 
 @media only screen and (max-width: 500px) {

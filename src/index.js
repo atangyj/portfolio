@@ -8,50 +8,57 @@ import pomodoro from './img/pomodoro.png';
 import randomQuote from './img/randomQuote.png';
 import twitch from './img/twitch.png';
 import wikipedia from './img/wikipedia.png';
+import CV from './TYJ_CV_2018_FE_v2.pdf';
 
 
-
+const production = process.env.IS_PRODUCTION || false;
 const projects = [
    {
     name: "The Path to the world",
     src: wikipedia,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["Javascript ES6","Wikipedia API"]
+    skill: ["Javascript ES6","Wikipedia API"],
+    href: "/the-path-to-the-world/index.html"
   },
 
    {
     name: "Shakespear's twitter",
     src: randomQuote,
     intro: "I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["React", "Twitter API"]
+    skill: ["React", "Twitter API"],
+    href: "/shakespears-twitter/index.html"
   },
 
  {
-    name: "Drum Machine",
+    name: "Whiplash",
     src: drumMachine,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["React"]
+    skill: ["React"],
+    href: "/whiplash/index.html"
   },
 
    {
     name: "Twitch",
     src: twitch,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["Javascript ES6", "Twitch API"]
+    skill: ["Javascript ES6", "Twitch API"],
+    href: "/love-rival/index.html"
   },
 
    {
-    name: "Lodoner's daily topic",
+    name: "Lodoner's everyday topic",
     src: localWeather,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["Javascript ES6", "Weather API"]
+    skill: ["Javascript ES6", "Weather API"],
+    href: "/londoner-everyday-topic/index.html"
   },
 
    {
     name: "Fitness timer",
     src: pomodoro,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
-    skill: ["React"]
+    skill: ["React"],
+    href: "/fitness-timer"
   }
 ];
 
@@ -68,10 +75,10 @@ const projects = [
 class Project extends React.Component {
   render(){
     const skills = this.props.skill;
-    const skill_list = skills.map(skill=> <span>{skill}<span className="ws">|</span></span>)
+    const skill_list = skills.map((skill,idx)=> <span key={idx.toString()}>{skill}<span key={idx.toString()} className="ws">|</span></span>);
     return(
       <div className="container-list-project">
-        <img className="project-screenshot" src={this.props.src} />
+        <img className="project-screenshot" alt={this.props.name} src={this.props.src} />
         <div className="container-project-desc">
           <div className="top">
             <h1>{this.props.name}</h1>
@@ -80,7 +87,7 @@ class Project extends React.Component {
 
           <div className="bottom">
             <p>{this.props.intro}</p>
-            <a>visit website</a>
+            <a className="link-project" href={this.props.href} target="_blank" rel="noopener noreferrer">visit website</a>
           </div>
         </div>
       </div>
@@ -98,8 +105,9 @@ class Portfolio extends React.Component {
   }
 
   renderProject(i){
+    const link = production ? projects[i].href : "https://atangyj.github.io" + projects[i].href;
     return (
-      <Project name = {projects[i].name} src={projects[i].src} intro={projects[i].intro} skill={projects[i].skill}/>
+      <Project key={i.toString()} name = {projects[i].name} src={projects[i].src} intro={projects[i].intro} skill={projects[i].skill} href={link}/>
     )
   }
 
@@ -117,11 +125,11 @@ class Portfolio extends React.Component {
       <div className="container">
         <header>
           <h1 className="header-title">Hi, I'm Alice.</h1>
-          <p>I'm London-based web developer and bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number indentification App at <a target="_blank" href="https://whoscall.com/en-US/">Gogolook</a>. I'd researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/">Brain & Mind Lab</a>. Welcome to look at some of my projects.</p>
+          <p>I'm a London based web developer and bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at some of my projects.</p>
           <nav className="clear">
             <ul>
               <li className="projects" onClick={this.clickNav}>Project</li>
-              <li><a className="link-resume" href="*">Resume</a></li>
+              <li><a className="link-resume" href={CV} target="_blank" rel="noopener noreferrer">Resume</a></li>
               <li className="contact" onClick={this.clickNav}>Contact</li>
             </ul>
           </nav>
