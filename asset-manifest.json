@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.e39fc8cf.chunk.css",
-  "main.js": "/portfolio/static/js/main.c11ebd15.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.c11ebd15.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.74a3dfa8.chunk.css",
+  "main.js": "/portfolio/static/js/main.8a0d8612.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.8a0d8612.chunk.js.map",
   "static/js/1.ea192e17.chunk.js": "/portfolio/static/js/1.ea192e17.chunk.js",
   "static/js/1.ea192e17.chunk.js.map": "/portfolio/static/js/1.ea192e17.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -12,8 +12,8 @@
   "static/media/twitch.png": "/portfolio/static/media/twitch.5d536078.png",
   "static/media/wikipedia.png": "/portfolio/static/media/wikipedia.fa632425.png",
   "static/media/localWeather.png": "/portfolio/static/media/localWeather.71cef5fd.png",
-  "static/css/main.e39fc8cf.chunk.css.map": "/portfolio/static/css/main.e39fc8cf.chunk.css.map",
+  "static/css/main.74a3dfa8.chunk.css.map": "/portfolio/static/css/main.74a3dfa8.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.4ea709032055520206f2de54e4265078.js": "/portfolio/precache-manifest.4ea709032055520206f2de54e4265078.js",
+  "precache-manifest.2874bb88764ac000352e150675b3fd9a.js": "/portfolio/precache-manifest.2874bb88764ac000352e150675b3fd9a.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
