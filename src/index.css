@@ -147,12 +147,17 @@ header p {
   display: inline;
 }
 
-.ws {
-  margin-left: .8rem;
-  margin-right: .8rem;
+.container-project-desc span:after {
+  content: '|';
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.container-project-desc span:last-child {
+.container-project-desc span:last-child:after {
+  content: " ";
+}
+
+.container-project-desc .container-project-desc span:last-child {
   border-right: none;
 }
 

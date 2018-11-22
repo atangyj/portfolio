@@ -30,7 +30,7 @@ const projects = [
  {
     name: "Whiplash",
     src: drumMachine,
-    intro:'Do you like the movie,"Whiplash"? This application lets you play drums by your keyboard!',
+    intro:'Do you like the movie "Whiplash"? This application lets you play drums by your keyboard!',
     skill: ["React"],
     href: "/whiplash/index.html"
   },
@@ -54,7 +54,7 @@ const projects = [
    {
     name: "Fitness timer",
     src: pomodoro,
-    intro:"I go to workout studio every weekdays. I built a fitness timer for myself, so I can train myself at home",
+    intro:"I go to workout studio every weekdays. I built a fitness timer for myself, so I can train myself at home.",
     skill: ["React"],
     href: "/fitness-timer"
   }
@@ -73,7 +73,7 @@ const projects = [
 class Project extends React.Component {
   render(){
     const skills = this.props.skill;
-    const skill_list = skills.map((skill,idx)=> <span key={idx.toString()}>{skill}<span key={idx.toString()} className="ws">|</span></span>);
+    const skill_list = skills.map((skill,idx)=> <span key={idx.toString()}>{skill}</span>);
     return(
       <div className="container-list-project">
         <img className="project-screenshot" alt={this.props.name} src={this.props.src} />
@@ -124,7 +124,7 @@ class Portfolio extends React.Component {
         <header>
 
           <h1 className="header-title">Hi, I'm Alice.</h1>
-          <p>I'm a London-based web developer and I bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd also researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at my projects.</p>
+          <p>I'm a London-based web developer and I bring easy-to-use interface to the daily life by JavaScript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd also researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at my projects.</p>
 
           <nav className="clear">
             <ul>
