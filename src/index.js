@@ -12,9 +12,9 @@ import CV from './TYJ_CV_2018_FE_v2.pdf';
 
 const projects = [
    {
-    name: "The Path to the world",
+    name: "The Path to this world",
     src: wikipedia,
-    intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro:"Knowledge is the path to this world. The path has no end. Wikipedia is the entry. This newly-desiged wikipedia interface makes your searching journey easier.",
     skill: ["Javascript ES6","Wikipedia API"],
     href: "/the-path-to-the-world/index.html"
   },
@@ -22,7 +22,7 @@ const projects = [
    {
     name: "Shakespear's twitter",
     src: randomQuote,
-    intro: "I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro: "If Shakespear has a twitter account, how will it look like?",
     skill: ["React", "Twitter API"],
     href: "/shakespears-twitter/index.html"
   },
@@ -30,15 +30,15 @@ const projects = [
  {
     name: "Whiplash",
     src: drumMachine,
-    intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro:'Do you like the movie,"Whiplash"? This application lets you play drums by your keyboard!',
     skill: ["React"],
     href: "/whiplash/index.html"
   },
 
    {
-    name: "Twitch",
+    name: "Love rival",
     src: twitch,
-    intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro:"My husband watches live stream on Twitch every day. I built a website which collects his favorite streamers.",
     skill: ["Javascript ES6", "Twitch API"],
     href: "/love-rival/index.html"
   },
@@ -46,7 +46,7 @@ const projects = [
    {
     name: "Londoner's everyday topic",
     src: localWeather,
-    intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro:"Feel difficult to initiate a conversation? Check London's weather on this website.",
     skill: ["Javascript ES6", "Weather API"],
     href: "/londoner-everyday-topic/index.html"
   },
@@ -54,7 +54,7 @@ const projects = [
    {
     name: "Fitness timer",
     src: pomodoro,
-    intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
+    intro:"I go to workout studio every weekdays. I built a fitness timer for myself, so I can train myself at home",
     skill: ["React"],
     href: "/fitness-timer"
   }
@@ -124,7 +124,7 @@ class Portfolio extends React.Component {
         <header>
 
           <h1 className="header-title">Hi, I'm Alice.</h1>
-          <p>I'm a London based web developer and bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at some of my projects.</p>
+          <p>I'm a London-based web developer and I bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd also researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at my projects.</p>
 
           <nav className="clear">
             <ul>
