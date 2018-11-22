@@ -1,0 +1,19 @@
+{
+  "main.css": "/portfolio/static/css/main.e39fc8cf.chunk.css",
+  "main.js": "/portfolio/static/js/main.c11ebd15.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.c11ebd15.chunk.js.map",
+  "static/js/1.ea192e17.chunk.js": "/portfolio/static/js/1.ea192e17.chunk.js",
+  "static/js/1.ea192e17.chunk.js.map": "/portfolio/static/js/1.ea192e17.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
+  "static/media/drumMachine.png": "/portfolio/static/media/drumMachine.3fdfdf1c.png",
+  "static/media/pomodoro.png": "/portfolio/static/media/pomodoro.1d0be92c.png",
+  "static/media/randomQuote.png": "/portfolio/static/media/randomQuote.d20f13d0.png",
+  "static/media/twitch.png": "/portfolio/static/media/twitch.5d536078.png",
+  "static/media/wikipedia.png": "/portfolio/static/media/wikipedia.fa632425.png",
+  "static/media/localWeather.png": "/portfolio/static/media/localWeather.71cef5fd.png",
+  "static/css/main.e39fc8cf.chunk.css.map": "/portfolio/static/css/main.e39fc8cf.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.f165c1a51b582ec19e273704546a2a89.js": "/portfolio/precache-manifest.f165c1a51b582ec19e273704546a2a89.js",
+  "service-worker.js": "/portfolio/service-worker.js"
+}
