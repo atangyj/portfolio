@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.74a3dfa8.chunk.css",
-  "main.js": "/portfolio/static/js/main.8a0d8612.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.8a0d8612.chunk.js.map",
-  "static/js/1.ea192e17.chunk.js": "/portfolio/static/js/1.ea192e17.chunk.js",
-  "static/js/1.ea192e17.chunk.js.map": "/portfolio/static/js/1.ea192e17.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.372d3760.chunk.css",
+  "main.js": "/portfolio/static/js/main.ee182fed.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.ee182fed.chunk.js.map",
+  "static/js/1.00d96a10.chunk.js": "/portfolio/static/js/1.00d96a10.chunk.js",
+  "static/js/1.00d96a10.chunk.js.map": "/portfolio/static/js/1.00d96a10.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/drumMachine.png": "/portfolio/static/media/drumMachine.3fdfdf1c.png",
@@ -11,9 +11,10 @@
   "static/media/randomQuote.png": "/portfolio/static/media/randomQuote.d20f13d0.png",
   "static/media/twitch.png": "/portfolio/static/media/twitch.5d536078.png",
   "static/media/wikipedia.png": "/portfolio/static/media/wikipedia.fa632425.png",
+  "static/media/TYJ_CV_2018_FE_v2.pdf": "/portfolio/static/media/TYJ_CV_2018_FE_v2.1a4de83f.pdf",
   "static/media/localWeather.png": "/portfolio/static/media/localWeather.71cef5fd.png",
-  "static/css/main.74a3dfa8.chunk.css.map": "/portfolio/static/css/main.74a3dfa8.chunk.css.map",
+  "static/css/main.372d3760.chunk.css.map": "/portfolio/static/css/main.372d3760.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.2874bb88764ac000352e150675b3fd9a.js": "/portfolio/precache-manifest.2874bb88764ac000352e150675b3fd9a.js",
+  "precache-manifest.094f093bf6c5eba63b94e779210ec6fb.js": "/portfolio/precache-manifest.094f093bf6c5eba63b94e779210ec6fb.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }

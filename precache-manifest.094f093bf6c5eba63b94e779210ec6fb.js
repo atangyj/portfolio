@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "71cef5fda56043456bfd360ed08a9bf9",
-    "url": "/portfolio/static/media/localWeather.71cef5fd.png"
+    "revision": "1d0be92c4536aebe90f91c1e4faa0877",
+    "url": "/portfolio/static/media/pomodoro.1d0be92c.png"
   },
   {
-    "revision": "8a0d86127038699d6d2c",
-    "url": "/portfolio/static/css/main.74a3dfa8.chunk.css"
+    "revision": "ee182fed3487c87a18a4",
+    "url": "/portfolio/static/css/main.372d3760.chunk.css"
   },
   {
-    "revision": "ea192e17cf2df89229eb",
-    "url": "/portfolio/static/js/1.ea192e17.chunk.js"
+    "revision": "00d96a10143f7478aa6f",
+    "url": "/portfolio/static/js/1.00d96a10.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/drumMachine.3fdfdf1c.png"
   },
   {
-    "revision": "8a0d86127038699d6d2c",
-    "url": "/portfolio/static/js/main.8a0d8612.chunk.js"
+    "revision": "71cef5fda56043456bfd360ed08a9bf9",
+    "url": "/portfolio/static/media/localWeather.71cef5fd.png"
   },
   {
-    "revision": "1d0be92c4536aebe90f91c1e4faa0877",
-    "url": "/portfolio/static/media/pomodoro.1d0be92c.png"
+    "revision": "ee182fed3487c87a18a4",
+    "url": "/portfolio/static/js/main.ee182fed.chunk.js"
   },
   {
     "revision": "d20f13d0b728db099739916c143cfb04",
@@ -40,7 +40,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/wikipedia.fa632425.png"
   },
   {
-    "revision": "89b8f740e42f2b1498ea7de5700255a8",
+    "revision": "1a4de83f259b4d3f492e121855f8f7cd",
+    "url": "/portfolio/static/media/TYJ_CV_2018_FE_v2.1a4de83f.pdf"
+  },
+  {
+    "revision": "672cb401c59a5a4f532a6faa55e7f81c",
     "url": "/portfolio/index.html"
   }
 ];
