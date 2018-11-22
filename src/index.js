@@ -10,8 +10,6 @@ import twitch from './img/twitch.png';
 import wikipedia from './img/wikipedia.png';
 import CV from './TYJ_CV_2018_FE_v2.pdf';
 
-
-const production = process.env.IS_PRODUCTION || false;
 const projects = [
    {
     name: "The Path to the world",
@@ -46,7 +44,7 @@ const projects = [
   },
 
    {
-    name: "Lodoner's everyday topic",
+    name: "Londoner's everyday topic",
     src: localWeather,
     intro:"I go to workout studio every weekdays. Then I build a workout pomodoro for myself",
     skill: ["Javascript ES6", "Weather API"],
@@ -105,7 +103,7 @@ class Portfolio extends React.Component {
   }
 
   renderProject(i){
-    const link = production ? projects[i].href : "https://atangyj.github.io" + projects[i].href;
+    const link = process.env.NODE_ENV === "development" ? "https://atangyj.github.io" + projects[i].href : projects[i].href;
     return (
       <Project key={i.toString()} name = {projects[i].name} src={projects[i].src} intro={projects[i].intro} skill={projects[i].skill} href={link}/>
     )
