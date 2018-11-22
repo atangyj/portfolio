@@ -28,26 +28,25 @@ body {
   background: #f0ebe7;
 }
 
-header {
+.container header {
   margin-top: 8rem;
   margin-bottom: 8rem;
 }
 
-header p {
+.container header p {
   padding-bottom: 8rem;
 }
 
 nav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   border-bottom: 5px solid #27394d;
   background: #f0ebe7;
   z-index: 300;
+  padding: .8rem 0;
 }
 
 ul li {
   float: left;
-  margin-right: 3rem;
+  margin-right: 2.5rem;
   list-style-type: none;
   cursor: pointer;
 }
@@ -64,9 +63,9 @@ ul li {
 
 .sticky {
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
   border-bottom: 0;
   box-shadow: .5px 0 10px rgba(0, 0, 0, .5);
 }
@@ -183,13 +182,16 @@ header p {
 /* RWD */
 
 @media only screen and (max-width: 500px) {
-  nav li {
-    margin-right: 1.2rem;
+  nav {
+    padding: .4rem 0;
+  }
+  .sticky ul {
+    width: 90%;
   }
   .container {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 1.6rem;
+    width: 90%;
+    /* box-sizing: border-box; */
+    /* padding: 0 1.6rem; */
   }
   .container header {
     margin-top: 0;

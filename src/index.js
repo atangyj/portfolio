@@ -122,8 +122,10 @@ class Portfolio extends React.Component {
     return(
       <div className="container">
         <header>
+
           <h1 className="header-title">Hi, I'm Alice.</h1>
           <p>I'm a London based web developer and bring easy-to-use interface to the daily life by Javascript and React. I'd managed and designed a phone number identification App at <a target="_blank" href="https://whoscall.com/en-US/" rel="noopener noreferrer">Gogolook</a>. I'd researched decision-making behavior at <a target="_blank" href="http://gibms.mc.ntu.edu.tw/Eng/" rel="noopener noreferrer">Brain & Mind Lab</a>. Welcome to look at some of my projects.</p>
+
           <nav className="clear">
             <ul>
               <li className="projects" onClick={this.clickNav}>Project</li>
