@@ -20,11 +20,11 @@ const projects = [
   },
 
    {
-    name: "Shakespear's twitter",
+    name: "Shakespeare's twitter",
     src: randomQuote,
-    intro: "If Shakespear has a twitter account, how will it look like?",
+    intro: "If Shakespeare has a twitter account, how will it look like?",
     skill: ["React", "Twitter API"],
-    href: "/shakespears-twitter/index.html"
+    href: "/shakespeares-twitter/index.html"
   },
 
  {
