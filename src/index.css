@@ -184,9 +184,7 @@ header p {
   text-decoration: none;
 }
 
-/* RWD */
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   nav {
     padding: .4rem 0;
   }
