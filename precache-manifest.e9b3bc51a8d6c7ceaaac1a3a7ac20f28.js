@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pomodoro.b4e7c444.png"
   },
   {
-    "revision": "b51048e1c29af2509287",
-    "url": "/portfolio/static/css/main.4ab15a6d.chunk.css"
+    "revision": "2c7718a72e9748cbfbfd",
+    "url": "/portfolio/static/css/main.99775877.chunk.css"
   },
   {
     "revision": "00d96a10143f7478aa6f",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/localWeather.8005d295.png"
   },
   {
-    "revision": "b51048e1c29af2509287",
-    "url": "/portfolio/static/js/main.b51048e1.chunk.js"
+    "revision": "2c7718a72e9748cbfbfd",
+    "url": "/portfolio/static/js/main.2c7718a7.chunk.js"
   },
   {
     "revision": "763d81f133b92908e16b27f1bbbd7253",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/TYJ_CV_2018_FE_v2.dc263ede.pdf"
   },
   {
-    "revision": "861ad7e88e39c88576ffae257aa6c08e",
+    "revision": "5c6e5eb2b177cfa3aa78441536ebe905",
     "url": "/portfolio/index.html"
   }
 ];
