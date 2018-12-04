@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/pomodoro.b4e7c444.png"
   },
   {
-    "revision": "2c7718a72e9748cbfbfd",
+    "revision": "ae4255f30d7bbe615a6f",
     "url": "/portfolio/static/css/main.99775877.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/localWeather.8005d295.png"
   },
   {
-    "revision": "2c7718a72e9748cbfbfd",
-    "url": "/portfolio/static/js/main.2c7718a7.chunk.js"
+    "revision": "ae4255f30d7bbe615a6f",
+    "url": "/portfolio/static/js/main.ae4255f3.chunk.js"
   },
   {
     "revision": "763d81f133b92908e16b27f1bbbd7253",
@@ -40,11 +40,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/wikipedia.347da9bc.png"
   },
   {
-    "revision": "dc263ede4d3542ef1b2687b35add02d1",
-    "url": "/portfolio/static/media/TYJ_CV_2018_FE_v2.dc263ede.pdf"
+    "revision": "755df851dd11f2e34f7c0a3c6c997da6",
+    "url": "/portfolio/static/media/TYJ_CV_2018_FE_v2.755df851.pdf"
   },
   {
-    "revision": "5c6e5eb2b177cfa3aa78441536ebe905",
+    "revision": "5db934ad9d38f2fff3fafa9932384888",
     "url": "/portfolio/index.html"
   }
 ];
