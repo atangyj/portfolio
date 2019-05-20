@@ -219,7 +219,7 @@ class Portfolio extends React.Component {
             <a href="mailto:atangyj@gmail.com">atangyj@gmail.com</a>
           </h1>
           <h1>
-            Find me on <a href="www.linkedin.com/in/aliceYJ">LinkedIn</a>
+            Find me on <a href="http://www.linkedin.com/in/aliceyj">LinkedIn</a>
           </h1>
           <h1>
             View my code on <a href="https://github.com/atangyj">github</a>
