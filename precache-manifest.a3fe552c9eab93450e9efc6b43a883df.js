@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "40efa7aa77bfce865a17",
+    "revision": "b5d1b3b2160207180025",
     "url": "/portfolio/static/css/main.2e4c10a9.chunk.css"
   },
   {
-    "revision": "40efa7aa77bfce865a17",
-    "url": "/portfolio/static/js/main.40efa7aa.chunk.js"
+    "revision": "b5d1b3b2160207180025",
+    "url": "/portfolio/static/js/main.b5d1b3b2.chunk.js"
   },
   {
     "revision": "f7ea3c8bf09d0f8c08a1",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/AliceTang_CV_2019_FE.5dcb099f.pdf"
   },
   {
-    "revision": "6ac135661569f3c7b6ee25008748e276",
+    "revision": "e16fa650f23bf746315f99ccd727e31d",
     "url": "/portfolio/index.html"
   }
 ];

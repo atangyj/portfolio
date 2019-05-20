@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.2e4c10a9.chunk.css",
-  "main.js": "/portfolio/static/js/main.40efa7aa.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.40efa7aa.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.b5d1b3b2.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.b5d1b3b2.chunk.js.map",
   "static/js/1.f7ea3c8b.chunk.js": "/portfolio/static/js/1.f7ea3c8b.chunk.js",
   "static/js/1.f7ea3c8b.chunk.js.map": "/portfolio/static/js/1.f7ea3c8b.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -16,6 +16,6 @@
   "static/media/AliceTang_CV_2019_FE.pdf": "/portfolio/static/media/AliceTang_CV_2019_FE.5dcb099f.pdf",
   "static/css/main.2e4c10a9.chunk.css.map": "/portfolio/static/css/main.2e4c10a9.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.7986b24d43bcd517b104f7c6518bebb9.js": "/portfolio/precache-manifest.7986b24d43bcd517b104f7c6518bebb9.js",
+  "precache-manifest.a3fe552c9eab93450e9efc6b43a883df.js": "/portfolio/precache-manifest.a3fe552c9eab93450e9efc6b43a883df.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
